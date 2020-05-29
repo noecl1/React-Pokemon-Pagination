@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Button Matches Snapshot 1`] = `
+<div>
+  <button
+    className="button-style"
+    data-testid="gotoPreviousButton"
+    onClick="https://pokeapi.co/api/v2/pokemon?offset=0&limit=20"
+  >
+    Previous
+  </button>
+  <button
+    className="button-style"
+    data-testid="gotoNextButton"
+    onClick="https://pokeapi.co/api/v2/pokemon?offset=40&limit=20"
+  >
+    Next
+  </button>
+</div>
+`;
